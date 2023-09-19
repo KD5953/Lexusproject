@@ -1,0 +1,197 @@
+/* main nav at top of webpage */
+.navbar {
+    margin: 0;
+    padding: 30px;
+    overflow: hidden;
+    justify-content: space-around;
+    display: flex;
+    background-color: whitesmoke;
+
+
+}
+
+/* Video dimensions */
+.bodyvideo {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+/* text for navbar */
+a {
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: large;
+}
+
+/* Second navbar under vid */
+.navbar2 {
+    background-color: black;
+    font-size: x-large;
+    color: whitesmoke;
+    height: 300px;
+}
+
+
+/* search magnifying glass icon dimensions */
+.mag {
+    height: 50px;
+    width: 50px;
+}
+
+/* second nav dimensions */
+.second-nav {
+    display: flex;
+    justify-content: left;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+/* Interior image section dimensions */
+.int-images {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+   
+    
+}
+
+/* list of names of models, ex.IS300 */
+.style-list {
+    list-style: none;
+    justify-content: center;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.style-list >li {
+    padding-top: 50px;
+}
+
+
+/* Dimensions for different profile views under style */
+.lexus-img1 {
+    height: 350px;
+
+
+}
+
+/* Styles Header formatting */
+h2 {
+    text-align: left;
+    font-size: 70px;
+    font-family:sans-serif;
+    background-color: black;
+    color: white;
+    height: 200px;
+    margin-right: 0%;
+    padding-top: 70px;
+    padding-left: 400px;
+}
+
+
+
+/* Styles content formatting */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.color-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: black;
+    color: antiquewhite;
+    flex-wrap: wrap;
+}
+
+.color-option1 {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.color-option2 {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid dimgrey;
+    border-radius: 50%;
+}
+
+.color-option3 {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.color-option4 {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.color-option5 {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+.color-option6 {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 2px solid dimgray;
+    border-radius: 50%;
+}
+
+
+
+
+.car-display {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-display img {
+    max-width: 100%;
+    height: auto;
+}
+
+.int-color-options {
+    background-color: black;
+}
+
+#int {
+    background-color: black;
+    color: white;
+    margin: 0%;
+
+}
+
+.vary {
+    color: white;
+}
+

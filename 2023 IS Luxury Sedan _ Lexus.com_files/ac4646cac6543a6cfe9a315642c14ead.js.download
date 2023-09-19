@@ -1,0 +1,2 @@
+Bootstrapper.bindDOMLoaded(function(){var Bootstrapper=window["Bootstrapper"];var ensightenOptions=Bootstrapper.ensightenOptions;Bootstrapper.on("click","#lfr-hub, #lfr-mobile-hub",function(){var frame=document.createElement("iframe");frame.style.display="none";frame.style.width="1px";frame.style.height="1px";frame.src="//1044889.fls.doubleclick.net/activityi;src\x3d1044889;type\x3dlexus764;cat\x3dlexus016;num\x3d"+Math.random()*1E13+";ord\x3d1?";document.body.appendChild(frame)})},1508398,414671,
+24);

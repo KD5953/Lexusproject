@@ -1,0 +1,113 @@
+/* Nobel Light */
+@font-face {
+  font-family: "nobel-light";
+  font-display: swap;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-light.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-light.ff3437583be251c10cf5.woff) format("woff");
+}
+
+/* Nobel Book */
+@font-face {
+  font-family: "nobel-book";
+  font-display: swap;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-book.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-book.fea428b82ada9530e3e7.woff) format("woff");
+}
+
+/* Nobel Regular */
+@font-face {
+  font-family: "nobel-regular";
+  font-display: swap;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-regular.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-regular.baff0f5c26d2bbfff83b.woff) format("woff");
+  font-style: normal;
+}
+
+/* Nobel Book Italic */
+@font-face {
+  font-family: "nobel-book-italic";
+  font-display: swap;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-book-italic.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-book-italic.8238a59eaeb4e731cd97.woff) format("woff");
+  font-style: normal;
+}
+
+/* Nobel Bold */
+@font-face { 
+  font-family: "nobel-bold";
+  font-display: swap;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-bold.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-bold.1bb99c98d93031420760.woff) format("woff");
+}
+
+/* Pakt */
+@font-face { 
+  font-family: "pakt";
+  font-display: swap;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/pakt/pakt.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/pakt.ed8d86205ca75483beac.woff) format("woff");
+}
+
+/* Nobel Light */
+@font-face {
+  font-family: "nobel";
+  font-display: swap;
+  font-weight: 300;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-light.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-light.ff3437583be251c10cf5.woff) format("woff");
+}
+
+/* Nobel Book */
+@font-face {
+  font-family: "nobel";
+  font-display: swap;
+  font-weight: 400;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-book.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-book.fea428b82ada9530e3e7.woff) format("woff");
+}
+
+/* Nobel Regular */
+@font-face {
+  font-family: "nobel";
+  font-display: swap;
+  font-weight: 500;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-regular.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-regular.baff0f5c26d2bbfff83b.woff) format("woff");
+  font-style: normal;
+}
+
+/* Nobel Bold */
+@font-face { 
+  font-family: "nobel";
+  font-display: swap;
+  font-weight: 700;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/nobel/nobel-bold.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/nobel-bold.1bb99c98d93031420760.woff) format("woff");
+}
+
+/* Pakt */
+@font-face { 
+  font-family: "pakt";
+  font-display: swap;
+  src: url("https://www.lexus.com/content/dam/lexus/typography/pakt/pakt.woff") format("woff"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/pakt.ed8d86205ca75483beac.woff) format("woff");
+}
+
+@font-face {
+  font-family: "ToyotaTypeReact";
+  font-display: swap;
+  font-weight: 400;
+  src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Book/ToyotaType-Book.woff2") format("woff2"), url("https://www.lexus.com/content/dam/lexus/typography/toyota/ToyotaType-Book.woff2") format("woff2"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/ToyotaType-Book.e1546bd65e77159e7ea7.woff2) format("woff2"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/ToyotaType-Book.213e9fe3ca6c8e78fe37.woff) format("woff");
+}
+@font-face {
+  font-family: "ToyotaTypeReact";
+  font-display: swap;
+  font-weight: 500;
+  src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Regular/ToyotaType-Regular.woff2") format("woff2"), url("https://www.lexus.com/content/dam/lexus/typography/toyota/ToyotaType-Regular.woff2") format("woff2"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/ToyotaType-Regular.5ce5e02e65de30d26909.woff2) format("woff2"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/ToyotaType-Regular.d45905be04547830e584.woff) format("woff");
+}
+
+@font-face {
+  font-family: "ToyotaTypeReact";
+  font-display: swap;
+  font-weight: 600;
+  src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Semibold/ToyotaType-Semibold.woff2") format("woff2"), url("https://www.lexus.com/content/dam/lexus/typography/toyota/ToyotaType-Semibold.woff2") format("woff2"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/ToyotaType-Semibold.52cb9ba68bbefcaf649c.woff2) format("woff2"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/ToyotaType-Semibold.710c3d3ac0a420bfe99c.woff) format("woff");
+}
+
+@font-face {
+  font-family: "ToyotaTypeReact";
+  font-display: swap;
+  font-weight: 700;
+  src: url("https://www.toyota.com/etc.clientlibs/tcom/clientlibs/clientlib-site/resources/fonts/ToyotaType-Bold/ToyotaType-Bold.woff2") format("woff2"), url("https://www.lexus.com/content/dam/lexus/typography/toyota/ToyotaType-Bold.woff2") format("woff2"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/ToyotaType-Bold.bc6dd5419ed2c56a72a9.woff2) format("woff2"), url(/etc.clientlibs/lexus/clientlibs/lexus-react/resources/static/media/ToyotaType-Bold.0adce8aeb4697e2a2cbe.woff) format("woff");
+}
+
+
+/*# sourceMappingURL=6415.695c6e01.chunk.css.map*/
