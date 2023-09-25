@@ -56,7 +56,7 @@
         </div> <!-- div for inteiror images -->
 
         <h2>Models Listed Below</h2>
-        <div class="styles">
+        <div class="styles">      <!-- Div for style list  -->
             <ul class="style-list">
                 <li>IS 300</li>
                 <li>IS 300 AWD</li>
@@ -64,12 +64,12 @@
                 <li>IS 350 F Sport</li>
                 <li>IS 500 F Sport Performance</li>
                 <li>IS 500 F Sport Premium</li>
-                <img class="lexus-img1" src="Images/large-1 (1).jpg" alt="Lexusphoto">
-                <img class="lexus-img1" src="Images/large-3.jpg" alt="Sideprofile">
-                <img class="lexus-img1" src="Images/large-5.jpg" alt="frontview">
-                <img class="lexus-img1" src="Images/large-2 (1).jpg" alt="sideprofile">
             </ul>
-        </div> <!-- Div for style list  -->
+            <img class="lexus-img1" src="Images/large-1 (1).jpg" alt="Lexusphoto">
+            <img class="lexus-img1" src="Images/large-3.jpg" alt="Sideprofile">
+            <img class="lexus-img1" src="Images/large-5.jpg" alt="frontview">
+            <img class="lexus-img1" src="Images/large-2 (1).jpg" alt="sideprofile">
+        </div> 
 
 
         <div class="color-options">
@@ -103,7 +103,7 @@
         </div> <!-- Parent Div for color options -->
 
 
-<h2 id="int">Interior Color Options</h2> <!-- div for int option header -->
+        <h2 id="int">Interior Color Options</h2> <!-- div for int option header -->
 
         <div class="int-color-options">
             <img src="Images/tan2interior.jpg" alt="tan2interior">
@@ -113,18 +113,115 @@
             <p class="vary">*Colors may vary depending on stock and packages*</p>
         </div> <!-- div for interior color options -->
 
+        <h2 id="tech-banner">Technology</h2>
+        <div class="technology">
+            <h4>UNPRECEDENTED CONNECTIVITY</h4>
+            <p>The entire IS line features advanced technology </p>
+            <p>thats right at your fingertips</p>
+            <p>Apple carplay provides seamless</p>
+            <p>connection to your favorite Apple iPhone apps.</p>
+            <p>While available oboard WIFI keeps you connected,</p>
+            <p>even when you're on the go.</p>
+
+            <h4>MULTIMEDIA DISPLAY</h4>
+            <p>With an available pinch and zoom enabled</p>
+            <p>10.3 inch touchscreen multimedia display that enables you</p>
+            <p>to personalize your multimedia experience</p>
+            <p>this is more than technology that connects</p>
+            <p>you-its an extension of you.</p>
+
+            <h4>MARK LEVINSON PREMIUM SURROUND SOUND</h4>
+            <p>Unlock a deeper appreciation of sound with the available</p>
+            <p>17-speaker,1800-watt Mark Levinson Premium Surround Sound.</p>
+            <p>it features one of the most sophisticated 3D</p>
+            <p>audio technologies.</p>
+            <p>available in an automobile: Quantum Logic Immersion.</p>
+
+            <img class="dash5" src="Images/2023_Lexus_IS_Dashboard_1.jpg" alt="Dash">
+            <img class="dash6" src="Images/tech.jpg" alt="Tech">
+        </div> <!-- div for technology section -->
 
 
+        <h2>Offers</h2>
+        <div class="offers">
+            <h1>Zip Code Search</h1>
+            <label for="zipCodeInput">Enter Zip Code:</label>
+            <input type="text" id="zipCodeInput" placeholder="Enter zip code">
+            <button id="searchButton">Search</button>
+            <div id="result"></div>
+            <img class="blue-lexus" src="Images/ultrasonic-blue-mica-20.png" alt="MICA_BLUE">
+        </div> <!-- div for offers and zip code search box -->
+
+        <script>
+
+            function searchZipCode() {
+
+                const zipCode = document.getElementById("zipCodeInput").value;
+
+                const resultElement = document.getElementById("result");
+                resultElement.textContent = `You entered zip code: ${zipCode}`;
+            }
+
+            const searchButton = document.getElementById("searchButton");
+            searchButton.addEventListener("click", searchZipCode);
+        </script> <!-- Function to show which zip code was typed in on search bar -->
 
 
+        <!-- div for columns at the end of the page -->
+        <footer>
+            <!-- column 1 -->
+            <div class="columns">
+                <div class="footer-column">
+                    <h4>LEASING & FINANCE</h4>
+                    <ul>
+                        <li><a href="#">APPLE FOR CREDIT</a></li>
+                        <li><a href="#">REWARD & FINANCE PROGRAMS</a></li>
+                        <li><a href="#">END OF LEASE OPTIONS</a></li>
+                        <li><a href="#">BUY OR LEASE QUIZ</a></li>
 
+                    </ul>
+                </div>
 
+                <!-- column 2 -->
+                <div class="footer-column">
+                    <h4>OWNERS</h4>
+                    <ul>
+                        <li><a href="#">LEXUSCARE</a></li>
+                        <li><a href="#">EXCLUSIVE EXPERIENCES</a></li>
+                        <li><a href="#">MOBILE PHONE APPS</a></li>
+                        <li><a href="#">PAY MY BILL</a></li>
+                        <li><a href="#">MY LEXUS</a></li>
+                    </ul>
+                </div>
 
+                <!-- column 3 -->
+                <div class="footer-column">
+                    <h4>SERVICE & WARRANTY</h4>
+                    <ul>
+                        <li><a href="#">MAINTENANCE SCHEDULE</a></li>
+                        <li><a href="#">PWARRANTY COVERAGE</a></li>
+                        <li><a href="#">SERVICE BY LEXUS</a></li>
+                        <li><a href="#">LEXUS TIRE CENTER</a></li>
+                    </ul>
+                </div>
 
-
-
-
+                <!-- column 4  -->
+                <div class="footer-column">
+                    <h4>HELP & SUPPOPRT</h4>
+                    <ul>
+                        <li><a href="#">CONNECTED TECHNOLOGY</a></li>
+                        <li><a href="#">ROADSIDE ASSISTANCE</a></li>
+                        <li><a href="#">BLUETOOTH</a></li>
+                        <li><a href="#">NAVIGATION</a></li>
+                        <li><a href="#">MAINTENANCE</a></li>
+                        <li><a href="#">SAFETY FAQ</a></li>
+                        <li><a href="#">WARRANTY</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div> <!-- Main div for content -->
 </body>
 
-</html>
+</html> 

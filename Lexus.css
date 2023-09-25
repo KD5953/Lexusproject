@@ -55,8 +55,8 @@ a {
     display: flex;
     justify-content: space-evenly;
     background-color: black;
-   
-    
+
+
 }
 
 /* list of names of models, ex.IS300 */
@@ -67,7 +67,7 @@ a {
     text-decoration: underline;
 }
 
-.style-list >li {
+.style-list>li {
     padding-top: 50px;
 }
 
@@ -83,7 +83,7 @@ a {
 h2 {
     text-align: left;
     font-size: 70px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     background-color: black;
     color: white;
     height: 200px;
@@ -94,12 +94,13 @@ h2 {
 
 
 
-/* Styles content formatting */
+
 body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
 
+/* formatting for color options section */
 
 .color-options {
     display: flex;
@@ -110,6 +111,7 @@ body {
     flex-wrap: wrap;
 }
 
+/* color opt 1 */
 .color-option1 {
     width: 50px;
     height: 50px;
@@ -119,6 +121,7 @@ body {
     border-radius: 50%;
 }
 
+/* color option 2 */
 .color-option2 {
     width: 50px;
     height: 50px;
@@ -128,6 +131,7 @@ body {
     border-radius: 50%;
 }
 
+/* color option 3 */
 .color-option3 {
     width: 50px;
     height: 50px;
@@ -137,6 +141,7 @@ body {
     border-radius: 50%;
 }
 
+/* color opt 4 */
 .color-option4 {
     width: 50px;
     height: 50px;
@@ -146,6 +151,7 @@ body {
     border-radius: 50%;
 }
 
+/* color opt 5 */
 .color-option5 {
     width: 50px;
     height: 50px;
@@ -155,7 +161,7 @@ body {
     border-radius: 50%;
 }
 
-
+/* color opt 6 */
 .color-option6 {
     width: 50px;
     height: 50px;
@@ -167,7 +173,7 @@ body {
 
 
 
-
+/* images of color options format */
 .car-display {
     margin-top: 20px;
     display: flex;
@@ -175,15 +181,18 @@ body {
     justify-content: center;
 }
 
+/* dimensnions for certain car color img */
 .car-display img {
     max-width: 100%;
     height: auto;
 }
 
+/* background for all color option images*/
 .int-color-options {
     background-color: black;
 }
 
+/* interior color options formatting */
 #int {
     background-color: black;
     color: white;
@@ -191,7 +200,102 @@ body {
 
 }
 
+/* text color for "color may vary depending on stock and packages */
 .vary {
     color: white;
 }
 
+/* div format for tech section */
+.technology {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    margin: 0%;
+}
+
+/* header format for tech section */
+#techbanner {
+    background-color: black;
+}
+
+/* image background color for tech images */
+.dash5 {
+    background-color: black;
+
+}
+
+/* background color for tech images */
+
+.dash6 {
+    height: 630px;
+}
+
+/* tech image dimensions */
+
+.blue-lexus {
+    height: 1000px;
+}
+
+/* buttom image dimensions */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+/* column formatting overall */
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* column text fomatting  */
+
+.footer-column {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* formatting for first column */
+
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* formatting for column 2 */
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* formatting for column 3 */
+
+.footer-column li {
+    margin-bottom: 5px;
+}
+
+/* formatting for column 4 */
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+/* button funcitonality */
+
+.footer-column a:hover {
+    color: #ccc;
+    /* Change link color on hover */
+}
